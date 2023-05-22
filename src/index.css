@@ -1,0 +1,465 @@
+.Main {
+  background-color: #131313;
+  background-image: url(./assets/main.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+.m1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.m2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.welcome {
+  color: #FFFFFF;
+  font-family: "Inter", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 15%;
+}
+
+.text {
+  color: #FFFFFF;
+  font-family: "Inter", Sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.name {
+  color: #F6AD54;
+  font-family: "Inter", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: -5px;
+  margin-bottom: 8px;
+}
+
+.desc {
+  text-align: justify;
+  color: #FFFFFF;
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+
+}
+
+.desc1 {
+  text-align: justify;
+  color: #FFFFFF;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.download {
+  font-family: "Inter", Sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  background-color: #F6AD54 !important;
+  padding: 13px 30px 13px 30px !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  transition: transform .2s;
+}
+
+.download:hover {
+  transform: scale(1.03) !important;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  transition: transform .2s;
+}
+
+.image1 img {
+  width: 100%;
+  height: auto;
+  transition: transform .2s;
+}
+
+.image img:hover {
+  transform: scale(1.04) !important;
+}
+
+.image1 img:hover {
+  transform: scale(1.04) !important;
+}
+
+
+/* .mainworksec{
+  margin-top: 2.5%;
+} */
+
+.welcome1 {
+  color: #FFFFFF;
+  font-family: "Inter", Sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 14%;
+}
+
+.Main1 {
+  background-color: #131313;
+  background-image: url(./assets/main1.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+.Main2 {
+  /* background-color: #212428; */
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #222121 0%, #191919 100%);
+  background-image: url(./assets/main2.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+.work {
+  color: #FFFFFF;
+  font-family: "Inter", Sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 1%;
+}
+
+.desc2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 5%;
+}
+
+.projectname {
+  color: #FFFFFF;
+  font-family: "Inter", Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 4%;
+  margin-bottom: 9%;
+}
+
+.Main3 {
+  background-color: #212428;
+}
+
+.mail {
+  color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.mail a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.mail a:hover {
+  text-decoration: none;
+  color: #F6AD54;
+}
+
+.wp {
+  background-color: #25d366;
+  padding: 5px 5px 1px 5px;
+  border-radius: 4px;
+  color: #fff;
+  height: 5.1vh;
+  margin-left: 1.5%;
+  transition: transform .2s;
+}
+
+.in {
+  background-color: #0077b5;
+  padding: 1px 14px 1px 14px;
+  border-radius: 4px;
+  color: #fff;
+  width: 65%;
+  height: 5.1vh;
+  margin-left: 14%;
+  transition: transform .2s;
+}
+
+.location {
+  float: right;
+  padding-right: 10%;
+}
+
+.phone {
+  text-align: center;
+  margin-left: 10%;
+}
+
+.wp:hover {
+  transform: scale(1.03) !important;
+}
+
+.in:hover {
+  transform: scale(1.03) !important;
+}
+
+.workimage:hover {
+  transform: scale(1.04) !important;
+}
+
+.social {
+  display: flex;
+}
+
+.workimage {
+  transition: transform .2s;
+}
+
+.workimagemain:hover .workimage {
+  transform: scale(1.04) !important;
+}
+
+
+.workimagemain:hover .projectname {
+  color: #F6AD54;
+}
+
+.portbottom {
+  padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .Main {
+    /* padding: 2%; */
+    padding-top: 10%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 10%;
+
+
+  }
+
+  .m1 {
+    height: auto;
+  }
+
+  .Main1 {
+    padding-top: 10%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 10%;
+  }
+
+  .Main2 {
+    padding-top: 10%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 10%;
+  }
+
+  .m2 {
+    height: auto;
+  }
+
+  .Main3 {
+    padding-left: 2%;
+  }
+
+  .welcome {
+    padding-top: 0%;
+  }
+
+  .image img {
+    margin-top: 14%;
+  }
+
+  .text {
+    font-size: 34px;
+  }
+
+  .desc1 {
+    font-size: 15px;
+  }
+
+  .download {
+    padding: 12px 10px 12px 10px !important;
+    font-size: 10px !important;
+  }
+
+  .welcome1 {
+    font-size: 26px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .work {
+    font-size: 26px;
+    float: left;
+  }
+
+  .desc2 {
+    font-size: 13px;
+    float: left;
+    text-align: left;
+    margin-bottom: 5%;
+  }
+
+  .mail {
+    float: left;
+    font-size: 15px;
+  }
+
+  .phone {
+    margin-left: 0%;
+  }
+
+  .projectname {
+    font-size: 18px;
+  }
+
+  .wp {
+    width: 15%;
+    height: 7vh;
+    padding: 2px 5px 3px 5px;
+    margin-left: 4%;
+  }
+
+  .wpicon {
+    width: 100%;
+  }
+
+  .in {
+    width: 65%;
+    height: 7vh;
+  }
+
+  .in {
+    padding: 1px 12px 1px 12px;
+    width: 68%;
+    height: 7vh;
+  }
+
+}
+
+@media (min-width: 763px) and (max-width: 1024px) {
+
+
+  .m1 {
+    height: auto;
+
+  }
+
+  .Main {
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+  }
+
+  .Main1 {
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+  }
+
+  .m2 {
+    height: auto;
+  }
+
+  .welcome {
+    padding-top: 0%;
+    font-size: 20px;
+  }
+
+  .desc1 {
+    font-size: 20px;
+  }
+
+  .download {
+    font-size: 20px !important;
+  }
+
+  .wp {
+    width: 65%;
+    height: 5vh;
+  }
+
+  .in {
+    width: 65%;
+    height: 5vh;
+  }
+
+  .work {
+    float: left;
+  }
+
+  .image img {
+    width: 80%;
+    margin-top: 14%;
+  }
+
+  .image1 img {
+    width: 80%;
+    margin-top: 14%;
+  }
+
+  .welcome1 {
+    margin-top: 5%;
+    font-size: 45px;
+  }
+
+  .desc {
+    font-size: 23px;
+    margin-top: 5%;
+  }
+
+  .desc2 {
+    font-size: 23px;
+    float: left;
+    text-align: left;
+  }
+
+  .mail {
+    float: left;
+    font-size: 22px;
+  }
+
+  .phone {
+    margin-left: 0%;
+  }
+
+  .projectname {
+    font-size: 26px;
+  }
+}
+
+
+
+ 
